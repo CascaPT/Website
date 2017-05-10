@@ -1718,6 +1718,10 @@
 						outline: 0;
 					}
 
+						#header nav li:not(:first-child):before {
+							content: " | ";
+						}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
