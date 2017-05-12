@@ -1689,9 +1689,8 @@
 			#header h1 a {
 				font-size: 1.25em;
 			}
-
-		#header nav li:not(:first-child):before {
-			content: " | ";
+						
+		#header nav {
 			position: absolute;
 			right: 0.5em;
 			top: 0;
@@ -1702,7 +1701,8 @@
 			#header nav ul {
 				margin: 0;
 			}
-				#header nav ul {
+				#header nav ul li:not(:first-child):before {
+					content: " | ";						
 					display: inline-block;
 					margin-left: 0.5em;
 					font-size: 0.9em;
