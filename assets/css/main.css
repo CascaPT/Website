@@ -1701,8 +1701,7 @@
 			#header nav ul {
 				margin: 0;
 			}
-				#header nav ul li:not(:first-child):before {
-					content: " | ";						
+				#header nav ul li {						
 					display: inline-block;
 					margin-left: 0.5em;
 					font-size: 0.9em;
