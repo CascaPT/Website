@@ -1701,25 +1701,22 @@
 			#header nav ul {
 				margin: 0;
 			}
-				#header nav li:not(:first-child):before {
-							content: " | ";
+				#header nav ul li :not(:first-child):before {
+					content: " | ";
+					display: inline-block;
+					margin-left: 0.5em;
+					font-size: 0.9em;
 				}
 
-					#header nav ul li {
-						display: inline-block;
-						margin-left: 0.5em;
-						font-size: 0.9em;
+					#header nav ul li a {
+						display: block;
+						color: inherit;
+						text-decoration: none;
+						height: 3em;
+						line-height: 3em;
+						padding: 0 0.5em 0 0.5em;
+						outline: 0;
 					}
-
-						#header nav ul li a {
-							display: block;
-							color: inherit;
-							text-decoration: none;
-							height: 3em;
-							line-height: 3em;
-							padding: 0 0.5em 0 0.5em;
-							outline: 0;
-						}
 
 						
 		@media screen and (max-width: 736px) {
