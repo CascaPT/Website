@@ -87,6 +87,7 @@
 			});
 
 		// Gallery.
+		/*
 			$window.on('load', function() {
 
 				var $gallery = $('.gallery');
@@ -118,7 +119,7 @@
 						});
 
 			});
-
+		*/
 		// Section transitions.
 			if (skel.canUse('transition')) {
 
